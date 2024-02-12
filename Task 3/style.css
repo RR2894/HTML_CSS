@@ -1,0 +1,48 @@
+body {
+    background-color: #add8e6;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 25%;
+    max-height: 30%;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.box {
+    height: 200px; /* Specify the unit (e.g., px) for height */
+    width: 200px;  /* Specify the unit (e.g., px) for width */
+    display: inline-block;
+    margin: 35px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5 {
+    background: gray;
+}
+
+.box1 {
+    border: 5px dotted white;
+    background-color: darkslateblue;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th {
+    background: #ecb4b4;
+    text-align: center;
+    color:white
+}

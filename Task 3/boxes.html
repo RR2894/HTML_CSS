@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>My portfolio</title>
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 50%;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h2 id="contact">Contact Information</h2>
+    <p>
+      Phone number: 0453568223
+      <br />
+      Email: randolph2894@gmail.com
+      <br />
+      <a href="https://github.com/RR2894" target="_blank">Github</a>
+    </p>
+
+    <section>
+      <h1>This is a boxes page</h1>
+      <div class="box box1"></div>
+      <div class="box box2"></div>
+      <div class="box box3"></div>
+      div class="box box4"></div>
+      <div class="box box5"></div>
+    </section>
+
+    <section>
+      <!-- Corrected the tag name from 'image' to 'img' -->
+      <img class="pic1" src="" alt="image" />
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+        laborum.
+      </p>
+    </section>
+
+    <h2>HTML Table</h2>
+
+    <table>
+
+      <tr>
+        <th>Description</th>
+        <th>Input Example</th>
+        <th>Notes</th>
+      </tr>
+      <tr>
+        <td>type="button"</td>
+        <td>
+            <input type="button" value="clickme">
+        </td>
+        <td>Needs value attribute for button text.</td>
+      </tr>
+
+      <tr>
+        <td>type="checkbox"</td>
+        <td><input type="checkbox" name="something1" value="1"> Something 1<br>
+        <input type="checkbox" name="something2" value="2"> Something 2 <br>
+        <input type="checkbox" name="something3" value="3"> Something 3 
+        </td>
+        <td>Checkbox text is placed after input tag. You can also replace text with label.</td>
+      </tr>
+
+      <tr>
+        <td>input type="password"</td>
+        <td>
+            <form action="process_form.php" method="post">
+                <label for="username">Username:</label><br>
+                <input type="text" id="username" name="username"><br>
+                <label for="pwd">Password:</label><br>
+                <input type="password" id="pwd" name="pwd"><br><br>
+                <input type="submit" value="Submit">
+            </form>
+        </td>
+        <td>The input type="password" defines a password field. The characters in a password field are masked (shown as asterisks or circles).</td>
+      </tr>
+      
+      <tr>
+        <td>Textarea</td>
+        <td>
+            <textarea name="AreaExample" rows="4" cols="50"></textarea>
+        </td>
+        <td></td>
+
+      </tr>
+      <tr>
+        <td>
+            Labest test
+        </td>
+        <td>
+            <label for="Username">Click me</label>
+            <input type="text" id="clickme">
+        </td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </body>
+</html>

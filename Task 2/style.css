@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+a { 
+    color: yellow;
+
+}
+
+img {
+
+    max-width: 40%;
+    max-height: 40%;
+}
