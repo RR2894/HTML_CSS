@@ -80,22 +80,15 @@ nav {
     padding: 10px;
     border: 1px solid white;}
     
-    
-section {
-        display: flex;
-        justify-content: left;
-    }
-    
-section .post-title{
+li{
         flex: 1;
         height: 15vh;
     }
 
-section .section-post-container{
-    flex: 1;
-    flex-flow: row wrap;
-    }
-
+.post-title {
+    align-self: flex-start; 
+    margin-left: auto;
+}
     
 aside {
         display: flex;
